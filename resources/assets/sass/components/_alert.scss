@@ -1,0 +1,8 @@
+/* Flash - Zobrazovanie alert na kraji obrazovky*/
+.alert {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  width: 250px;
+  z-index: 9999;
+}

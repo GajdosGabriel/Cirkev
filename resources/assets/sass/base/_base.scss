@@ -1,0 +1,14 @@
+#app {
+  min-height: 40vh;
+  height: 100%; /* Full height */
+  background-image: url('../images/background.jpg');
+  /* The image used */
+  background-position: center;  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .container {
+    background-color: #fff;
+  }
+}

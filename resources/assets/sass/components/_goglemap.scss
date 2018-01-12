@@ -1,0 +1,22 @@
+// Google map a modul
+
+
+.zobrazit1 {
+  color: darkred;
+}
+
+.zobrazit0 {
+  display: none;
+}
+
+.zobrazitnull {
+  display: none;
+}
+
+
+/*{{--Google maps--}}*/
+#mapCanvas {
+  width: 510px;
+  height: 500px;
+  float: left;
+}

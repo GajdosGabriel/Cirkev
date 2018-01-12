@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    # Redirect to the correct domain name
+    # RewriteCond %{HTTP_HOST} ^cirkevonline\.sk$ [NC]
+    # RewriteRule ^(.*)$ https://www.cirkevonline.sk/$1 [R=301,L]
+
+    # Redirect to the HTTPS site
+    # RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+    # RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+    # Removing public segment from URL
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
